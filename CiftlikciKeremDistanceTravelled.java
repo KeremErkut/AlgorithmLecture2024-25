@@ -1,4 +1,10 @@
-
+/*******************************************************************
+@Title:	CiftlikciKeremDistanceTravelled
+@Purpose:	For Lab3
+@Author:    Ciftlikci Kerem 
+@Date:   	10/27/24 | 27th of October 2024
+@Version:	1.0
+********************************************************************/
 import javax.swing.JOptionPane;
 
 public class CiftlikciKeremDistanceTravelled{
