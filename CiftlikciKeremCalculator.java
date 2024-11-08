@@ -1,3 +1,10 @@
+/*******************************************************************
+@Title:	CiftlikciKeremCalculator
+@Purpose:	For Lab3
+@Author:    Ciftlikci Kerem 
+@Date:   	10/18/24 | 18th of October 2024
+@Version:	1.0
+********************************************************************/
 public class CiftlikciKeremCalculator {
     public static void main(String[] args) {
       
