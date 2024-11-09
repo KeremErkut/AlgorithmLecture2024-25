@@ -1,6 +1,6 @@
 /*******************************************************************
 @Title:	CiftlikciKeremLogicalOperators
-@Purpose:	to calculate the pizza amount. For Lab4
+@Purpose:	To calculate the pizza order amount. For Lab4
 @Author:    Ciftlikci Kerem 
 @Date:   	11/10/24 | 10th of November 2024
 @Version:	1.0
