@@ -22,7 +22,7 @@ public class CiftlikciKeremTipCalculator {
             if (tipRate >= 0 && tipRate <= 100) {
                 break;
             } else {
-                System.err.println("Tip rate must be between 0 and 100.");
+                System.out.println("Tip rate must be between 0 and 100.");
             }
         }
         return tipRate;
@@ -62,8 +62,8 @@ public class CiftlikciKeremTipCalculator {
         float tip = calculateTip(amount, tipRate);
         float total = amount + tip;
         
-        System.out.println("Calculated tip: " + tip);
-        System.out.println("The check is(tip included): " + total);
+        System.out.printf("Calculated tip: %.2f%n", tip);
+        System.out.printf("The check is (tip included): %.2f%n", total);
         
         compareTip(tipRate);
     }
