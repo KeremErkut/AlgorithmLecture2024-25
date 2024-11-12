@@ -72,13 +72,13 @@ public class CiftlikciKeremAdvanceAccessControlSystem {
                 break;
 
             case "USER":
-                if (securityLevel >= 3 && currentTime >= 9 && currentTime < 17) {
+                if (securityLevel >= 3 && currentTime >= 9 && currentTime <= 17) {
                     return true; 
                 }
                 break;
 
             case "GUEST":
-                if (securityLevel >= 2 && currentTime >= 10 && currentTime < 16) {
+                if (securityLevel >= 2 && currentTime >= 10 && currentTime <= 16) {
                     return true; 
                 }
                 break;
