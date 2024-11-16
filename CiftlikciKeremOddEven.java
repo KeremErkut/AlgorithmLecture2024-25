@@ -10,7 +10,7 @@ public class CiftlikciKeremOddEven {
             System.out.println("Please enter a positive number:");
             number = keyboard.nextInt();
 
-            if (number > 0) {
+            if (number >= 0) {
                 break;
             } else {
                 System.out.println("The number must be positive. Try again.");
