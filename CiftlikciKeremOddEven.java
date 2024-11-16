@@ -1,3 +1,10 @@
+/*******************************************************************
+@Title:	    CiftlikciKeremOddEven
+@Purpose:	To understand basics in java
+@Author:    Ciftlikci Kerem 
+@Date:   	11/16/24 | 16th of November 2024
+@Version:	1.0
+********************************************************************/
 import java.util.Scanner;
 
 public class CiftlikciKeremOddEven {
