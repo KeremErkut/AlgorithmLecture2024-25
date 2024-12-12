@@ -1,4 +1,10 @@
-
+/*******************************************************************
+@Title:	    CiftlikciKeremEvenOddArray
+@Purpose:	For Lab7
+@Author:    Ciftlikci Kerem 
+@Date:   	12/13/24 | 13th of December 2024
+@Version:	1.0
+********************************************************************/
 import java.util.Scanner;
 
 public class CiftlikciKeremEvenOddArray {
