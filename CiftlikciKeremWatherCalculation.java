@@ -1,11 +1,11 @@
 /*******************************************************************
-@Title:	    CiftlikciKeremALab8
+@Title:	    CiftlikciKeremWatherCalculation
 @Purpose:	To understand methods and arrays in java.
 @Author:    Ciftlikci Kerem
 @Date:   	12.21.24 | Twenty First of November 2024
 @Version:	1.0
 ********************************************************************/
-public class CiftlikciKeremLab08 {
+public class CiftlikciKeremWatherCalculation {
 
     public static void printWholeInfo(double averageTenth, double averageEleventh, double differenceTenth, double differenceEleventh, double determineTenth, double determineEleventh){
         System.out.printf("Average Tempeture of November 10th : %.2f°C\n", averageTenth);
