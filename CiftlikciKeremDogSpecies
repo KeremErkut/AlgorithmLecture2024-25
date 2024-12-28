@@ -1,0 +1,95 @@
+/*******************************************************************
+@Title:	  CiftlikciKeremDogSpecies
+@Purpose:	To understand methods and 2D arrays in java.
+@Author:  Ciftlikci Kerem
+@Date:   	12.28.24 | Twenty Eighth of December 2024
+@Version:	1.0
+********************************************************************/
+import java.util.Random;
+
+public class CiftlikciKeremDogSpecies{
+
+
+	public static void generateRandomArray(int[][]array){
+		Random randomNumberGenerator = new Random();
+		for(int row = 0; row < array.length; row++){
+			for(int col = 0; col < array[row].length; col++){
+				array[row][col] = randomNumberGenerator.nextInt(10);
+			}
+		}
+	}
+
+	public static void printFilledArray(int[][]array){
+			for(int row = 0; row < array.length; row++){
+				System.out.println();
+				for(int col = 0; col < array[row].length; col++){
+					System.out.print(array[row][col] + " ");
+				}
+				System.out.println();
+			}
+			System.out.println();
+	}
+
+	public static void lastSpeciesTotalCount(int[][]array){
+		int total = 0;
+		int row = 3;
+		for(int col = 0; col < array[row].length; col++){
+			total += array[row][col];
+		}
+		System.out.println("Total number of last species in all 6 states is " + total);
+		System.out.println();
+
+	}
+
+	public static void differentDogSpeciesEachState(int[][]array){
+		for(int col = 0; col < array[0].length; col++){
+			int count = 0;
+			for(int row = 0; row < array.length; row++ ){
+				if(array[row][col] != 0){
+					count++;
+				}
+			}
+			if(count == 0){
+				System.out.println("No dog species in State " + (col + 1));
+			}else{
+				System.out.println("The different dog species for " + " State " + (col + 1) + " is " + count );
+			}
+		}
+	}
+
+	public static void listEndangeredSpecies(int[][]array){
+		int count = 0;
+
+		if(count == 0){
+			System.out.println();
+			System.out.println("We don't have any endangered species. YEEEEYYY! ");
+		}else{
+			for(int col = 0; col < array[0].length; col++){
+				for(int row = 0; row < array.length; row++ ){
+					if(array[row][col] > 0){
+						count++;
+					}
+				}
+				if(count <= 3){
+					System.out.println("Species " + (col + 1) + " is endangered.");
+				}
+	
+			}
+		}
+
+	}
+
+	public static void main(String[]args){
+
+		int[][] dogPopulation = new int [4][6];
+
+		generateRandomArray(dogPopulation);
+		printFilledArray(dogPopulation);
+		lastSpeciesTotalCount(dogPopulation);
+		differentDogSpeciesEachState(dogPopulation);
+		listEndangeredSpecies(dogPopulation);
+		
+	}
+
+}
+
