@@ -4,9 +4,10 @@ Welcome to my repository! This collection contains Java programs developed as pa
 
 ---
 ## 📂 **File List**
-[Admissions](CiftlikciKeremAdmissions.java)
-[Advance Acces Control System](CiftlikciKeremAdvanceAccessControlSystem.java)
-
+*[Admissions](CiftlikciKeremAdmissions.java)
+*[Advance Acces Control System](CiftlikciKeremAdvanceAccessControlSystem.java)
+*[Animal Speaking Greeting](CiftlikciKeremAnimalSpeakingGreeting.java)
+*[Average SnowFall](CiftlikciKeremAverageSnowFall.java)
 
 ---
 ## Admissions 🎓
@@ -36,6 +37,26 @@ This program manages access control based on role, security level, and time 🕒
 - **isAccessGranted()**: Determines if access is granted based on conditions 🛡️
 
 ---
+##  AnimalSpeakingGreeting 🐾
+
+This program prints a cute animal drawing with a greeting message 🐱🎉.
+
+### Key Method:
+- **drawAnimal()**: Prints a simple ASCII art of an animal and a greeting message 🙀
+
+---
+
+## CiftlikciKeremAverageSnowFall ❄️
+
+This program calculates the average snowfall for five months (November to March) based on user input 🌨️.
+
+### Steps:
+1. Takes input for snowfall values from the user using `JOptionPane` 📥
+2. Converts the input to `Double` values 🧮
+3. Calculates and displays the average snowfall 🏔️
+
+---
+
 ## 🚀 **Conclusion**
 
 This repository showcases a series of programs that focus on fundamental programming concepts such as loops, conditionals, recursion, and user input. These projects helped me develop a strong foundation in Java and its applications.
