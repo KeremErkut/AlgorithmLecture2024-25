@@ -3,7 +3,7 @@
 Welcome to my repository! This collection contains Java programs developed as part of my Algorithm and Programming course for the 2024-2025 academic year. Below is a detailed explanation of each file.
 
 ## 📂 **File List**
-- [CiftlikciKeremPalindromeCheck.java](#1-ciftlikcikerempalindromecheck.java)
+- [CiftlikciKeremPalindromeCheck.java](CiftlikciKeremPalindrom.java)
 - [CiftlikciKeremMultiplicationTable.java](#ciftlikcikermultiplicationtablejava)
 - [CiftlikciKeremTemperatureConverter.java](#ciftlikcikermperatureconverterjava)
 - [CiftlikciKeremFactorial.java](#ciftlikcikeremfactorialjava)
